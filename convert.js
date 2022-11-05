@@ -146,7 +146,7 @@ function loadFile(file) {
 				}
 				
 				var olderPhych = null;
-				olderPhych = parseInt(note[1]);
+				olderPhych = parseInt(note[2]);
 				
 				if (olderPhych != null) {
 					if (note[1] < 0) {
